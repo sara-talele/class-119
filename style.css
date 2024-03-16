@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(red 0%, purple 100%);
+}
+
+h1 {
+    background-color: aqua;
+    color: blue;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    animation: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+    0% {
+        color: purple;
+    }
+
+    15% {
+        color: mediumvioletred;
+    }
+
+    30% {
+        color: maroon;
+    }
+
+    45% {
+        color: midnightblue;
+    }
+
+    60% {
+        color: plum;
+    }
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 35px;
+    animation: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        box-shadow: 1px 1px 38px blue;
+    }
+
+    15% {
+        box-shadow: 1px 1px 38px yellow;
+    }
+
+    30% {
+        box-shadow: 1px 1px 38px midnightblue;
+    }
+
+    45% {
+        box-shadow: 1px 1px 38px mintcream;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
